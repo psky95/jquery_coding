@@ -1,0 +1,331 @@
+body{
+    overflow-x: hidden;
+    padding-left: 200px;
+}
+.row {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0;
+  clear: both;
+}
+.row img {
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+.ju{
+    background-color: blanchedalmond;
+}
+.ya{
+    background-color: lightslategray;
+    color: white;
+}
+.border-color{
+    border-color: blue;
+}
+header {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #2b6eda));
+	background: -moz-linear-gradient(top, #ffffff 0%, #2b6eda 100%);
+	background: -webkit-linear-gradient(bottom, #ffffff 0%, #2b6eda 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%, #2b6eda 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%, #2b6eda 100%);
+	background: linear-gradient(top,  #ffffff 0%, #2b6eda 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#2b6eda', gradientType=0);
+}
+header div.wrap {
+  
+    width: auto;
+    height: 100%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+header div.wrap h1 {
+  
+    order: 2;
+    color: white;
+}
+header div.wrap h1 a{
+    
+}
+header div.wrap ul.gnb {
+  
+    order: 3;
+    flex-direction: column;
+}
+header div.wrap ul.gnb li {
+  
+    line-height: 1.4;
+}
+header div.wrap ul.gnb li a{
+    color: #eee;
+    font-size: 13px
+}
+header div.wrap ul.enb {
+  
+    order: 1;
+    font-size: 14px;
+    justify-content: space-around;
+}
+header div.wrap ul.enb li {
+  
+    line-height: 1.4;
+}
+header div.wrap ul.enb li a {
+  
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    border: 2px solid yellow;
+    padding: 5px 5px;
+}
+header div.wrap ul.enb li a::before{
+    content: "";
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    display: block;
+}
+header div.wrap ul.enb li a:nth-child(1){
+    
+}
+header div.wrap ul.enb li:nth-child(1) a::before{
+    
+    background-image: url(../img/light.svg);
+}
+header div.wrap ul.enb li a:nth-child(2){
+    
+}
+header div.wrap ul.enb li:nth-child(2) a::before{
+    background-image: url(../img/dark.svg);
+}
+main {  
+    height: 300%;
+    transition: all 1s;
+    position: relative;
+}
+main section{
+    height: calc(100% / 3);
+    border: 2px solid;
+    box-sizing: border-box;
+}
+
+aside {
+  
+    width: 200px;
+    min-height: 300px;
+    position: absolute;
+    right: -200px;
+    top: 30px;
+    background-color: #72A2ED;
+    transition: all 1s;
+}
+aside button {
+    all: unset;
+    width: 40px;
+    height: 80px;
+    position: absolute;
+    left: -40px;
+    font-size: 0;
+    background-color: #72A2ED;
+    background-image: url(../img/arrowleft.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 0 0 0 15px;
+    cursor: pointer;
+}
+.buttonreverse{
+    background-image: url(../img/arrowright.svg);
+}
+.current{
+    background-color: black;
+    color: white;
+}
+.current a{
+    color: white !important;
+}
+.aisdeshow{
+    right: 0;
+    
+}
+/* 타이틀영역 */
+#title{
+    height: 800px;
+    /*! background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #3fdcd7)); */
+	/*! background: -moz-linear-gradient(bottom, #ffffff 0%, #3fdcd7 100%); */
+	/*! background: -webkit-linear-gradient(bottom, #ffffff 0%, #3fdcd7 100%); */
+	/*! background: -o-linear-gradient(bottom, #ffffff 0%, #3fdcd7 100%); */
+	/*! background: -ms-linear-gradient(bottom, #ffffff 0%, #3fdcd7 100%); */
+	/*! background: linear-gradient(bottom, #ffffff 0%, #3fdcd7 100%); */
+	/*! filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#3fdcd7', gradientType=0); */
+    background-image: url(../img/sky00.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* 타이틀 영역 카피 css */
+div.main-heading-wrapper{  
+    width: 1200px;
+    margin: 0 auto;
+}
+div.main-heading-wrapper >h2{
+  position: relative;
+  z-index: 1;
+  margin-right: 0px;
+  margin-left: 0px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 99px;
+  line-height: 87px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+div.main-heading-wrapper .without-code{
+    color: white;
+}
+/* 메인 영역 */
+section#basic {
+  
+}
+section#basic div.wrap {
+  
+}
+section#basic div.wrap article {
+  
+    flex-direction: column;
+    align-items: center;
+}
+section#basic div.wrap article h2 {
+  
+}
+section#basic div.wrap article p {
+  
+}
+section#basic div.wrap article ul.list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    margin-top: 30px;
+}
+section#basic div.wrap article ul.list li {
+  
+    width: calc(100% / 2);
+    padding: 0 20px;
+    box-sizing: border-box;
+    transition: all 1s;
+    border: 1px solid transparent;
+}
+section#basic div.wrap article ul.list li:nth-child(2n){  
+    border-left: 1px solid #e9e9e9;
+}
+section#basic div.wrap article ul.list li a {
+  
+}
+section#basic div.wrap article ul.list li a h3 {
+    background-color: #eee;
+    border-color: #eee;
+    line-height: 1.3;
+    padding-left: 15px;
+}
+section#basic div.wrap article ul.list li a p {
+  
+}
+/* 미들영역 */
+section#middle {
+  
+}
+section#middle div.wrap {
+  
+}
+section#middle div.wrap article {
+  
+}
+section#middle div.wrap article h2 {
+  
+}
+section#middle div.wrap article p {
+  
+}
+section#middle div.wrap article ul {
+  
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+    width: 100%;
+}
+section#middle div.wrap article ul li.filter {
+  
+    background-color: skyblue;
+    cursor: pointer;
+    text-align: center;
+}
+section#middle div.wrap article ul li.filter h3 {
+  
+    line-height: 1.5;
+}
+section#middle div.wrap article ul li.filter p {
+}
+/* 활용 */
+#use .slick{
+    
+    width: 100%;
+}
+#use .slick .slic{
+    
+    width: 100%;
+}
+#use .slick-prev{
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    left: -80px;
+}
+#use .slick-next{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    right: -80px;
+}
+#use .slick .slic li{
+    height: 100px;
+}
+#use .slick .slic li.slic1{
+    
+    background-image: url(../img/jun.png);
+    background-size: contain;
+    display: block;
+}
+#use .slick .slic li.slic2{
+    background-image: url(../img/sae.png);
+    color: black;
+    background-size: contain;
+    background-position: center;
+}
+#use .slick .slic li.slic3{
+    background-image: url(../img/cass.jpg);
+    color: black;
+    background-size: contain;
+    background-position: center;
+}
+/* 푸터 영역 */
+footer a.btop{
+    right: 65px;
+    bottom: 65px;
+}
