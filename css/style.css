@@ -114,7 +114,7 @@ header div.wrap ul.enb li:nth-child(2) a::before{
 }
 main {  
     height: 300%;
-    transition: all 1s;
+/*     transition: all 1s; */
     position: relative;
 }
 main section{

@@ -54,6 +54,7 @@
     -webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s linear;
     transition: all 0.3s linear;
+    left: 0;
   }
   .gallery ul li a:hover:after {
     opacity: 1;

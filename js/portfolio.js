@@ -13,7 +13,7 @@ $(document).ready(function(){
     
     $(".gallery ul li a").click(function() {
         $('html, body').animate({
-            scrollTop: parseInt($("#top").offset().top)
+            scrollTop: parseInt($("#portfolio").offset().top)
         }, 400);
     });
 });
