@@ -1,27 +1,42 @@
 section#middle {
-  color: 1;
+  
 }
 section#middle div.wrap {
-  color: 1;
+  
 }
 section#middle div.wrap article {
-  color: 1;
+  
 }
 section#middle div.wrap article h2 {
-  color: 1;
+  
 }
 section#middle div.wrap article p {
-  color: 1;
+  
 }
-section#middle div.wrap article ul {
-  color: 1;
+section#middle div.wrap article ul.list {
+  
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  margin-top: 50px;
+  width: 100%;
+  justify-content: space-around;
 }
-section#middle div.wrap article ul li.filter {
-  color: 1;
+section#middle div.wrap article ul.list li {
+  
+  width: 550px;
+  box-sizing: border-box;
+  line-height: 2;
 }
-section#middle div.wrap article ul li.filter h3 {
-  color: 1;
+section#middle div.wrap article ul.list li h3 {
+  
+  background-color: lightgray;
+  padding-left: 15px;
+  transition: all 0.5s;
 }
-section#middle div.wrap article ul li.filter p {
-  color: 1;
+section#middle div.wrap article ul.list li p {
+  border: 1px solid;
+  border-top: none;
+  display: none;
+  padding-left: 15px;
 }

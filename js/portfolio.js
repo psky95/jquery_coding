@@ -1,5 +1,5 @@
-// portfolio
 $(document).ready(function(){
+    // portfolio
     $('.gallery ul li a').click(function() {
         var itemID = $(this).attr('href');
         $('.gallery ul').addClass('item_open');
@@ -10,7 +10,7 @@ $(document).ready(function(){
         $('.port, .gallery ul').removeClass('item_open');
         return false;
     });
-    
+
     $(".gallery ul li a").click(function() {
         $('html, body').animate({
             scrollTop: parseInt($("#portfolio").offset().top)

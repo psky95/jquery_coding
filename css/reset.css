@@ -1,3 +1,22 @@
+*{ /* 모든 태그 */
+    margin: 0;
+    padding: 0;
+    line-height: 1; /* 줄간격, 글높이 */
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-size: 100%; /* 16px */
+    font-weight: normal; /* 폰트 두께 */
+}
+
+ul{
+    list-style: none; /* 점표시 없앰 */
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
 /* reset.css */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -47,7 +66,7 @@ body{
     font-family:'회사에서 사용하는 기본 폰트', '맑은 고딕','Malgun Gothic', AppleGothic,sans-serif;
     font-size: 16px;
     font-weight: 400;
-    /* 아이폰에 reset font가 설정이 안되는 경우가 있어 설정해주어야 함  */
+    /* 아이폰에 reset font가 설정이 안되는 경우기 있어 설정해주어야 함  */
     -webkit-text-size-adjust:none;
 }
 p,div,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,select,button,code,label,em,span,strong {
@@ -70,19 +89,3 @@ input,select,textarea{
 }
 /* IE 셀렉박스 기본 화살표 제거 */
 select::-ms-expand{display:none;}
-*{ /* 전체선택자 모든태그 */
-    margin: 0;
-    padding:0;
-    line-height:1; /* 줄간격,글높이 */
-  }
-  h1,h2,h3,h4,h5,h6{ /* 그룹선택자 */
-    font-size: 100%; /* 16px */
-    font-weight: normal; /* 폰트두께 */
-  }
-  ul{ /* html선택자*/
-    list-style: none; /* 점표시 없앰 */
-  }
-  a{
-    text-decoration: none; 
-    color: black;
-  }
