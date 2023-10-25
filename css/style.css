@@ -22,6 +22,7 @@ header div.wrap {
 header div.wrap h1 {
   
   order: 2;
+  font-size: 18px;
 }
 header div.wrap h1 a {
   
@@ -54,17 +55,17 @@ header div.wrap ul.enb li a {
 
 #title{
   height: 800px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #000000), color-stop(1, #ffffff));
+/*   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #000000), color-stop(1, #ffffff));
   background: -moz-linear-gradient(top, #000000 0%, #ffffff 100%);
   background: -webkit-linear-gradient(top, #000000 0%, #ffffff 100%);
   background: -o-linear-gradient(top, #000000 0%, #ffffff 100%);
   background: -ms-linear-gradient(top, #000000 0%, #ffffff 100%);
   background: linear-gradient(top, #000000 0%, #ffffff 100%);
-  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#ffffff', gradientType=0);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#ffffff', gradientType=0); */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url(../img/title.png);
+background-image: url(../img/title.png);
 }
 
 #title .wrap .main-heading-wrapper {
@@ -163,7 +164,7 @@ main section#basic div.wrap article ul.list li a p {
   background-color: darkgray;
 }
 #use .slick .slic li.slic3 {
-  background-color: gray;
+  background-color: whitesmoke;
 }
 
 
@@ -214,7 +215,7 @@ aside button {
   background-color: white;
 }
 .ya {
-  background-color: gray;
+  background-color: grey;
 }
 footer a.scrolltop {
   

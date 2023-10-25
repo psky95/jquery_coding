@@ -6,8 +6,8 @@
     flex-flow: column nowrap;
     justify-content: flex-end;
     left: -40px;
-    bottom: 40px;
     z-index: 100;
+    top: 70px;
   }
   .nav {
     margin: 0 0 100px 30px;
